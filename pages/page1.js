@@ -1,13 +1,9 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Icon from '../static/icon.jpg';
 
 function Page1() {
   return(
     <div>
-      <Link href="/page2" passHref>
-        <a>page2로 이동</a>
-      </Link>
       <p>This is home page</p>
       <img src={Icon} />
       <Head>
